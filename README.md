@@ -1,3 +1,3 @@
 # CommII_B1_Name
-Repositorio Comunicaciones II Hp
+Repositorio Comunicaciones II
 
