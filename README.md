@@ -1,3 +1,3 @@
-# CommII_B1_Name
+# ComuII_B1_G8
 Repositorio Comunicaciones II
 
