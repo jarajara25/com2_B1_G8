@@ -68,7 +68,7 @@ blocks:
     rangeType: float
     start: '0'
     step: samp_rate/1000
-    stop: samp_rate/8
+    stop: samp_rate
     value: Rb*4
     widget: counter_slider
   states:
@@ -89,7 +89,7 @@ blocks:
     rangeType: float
     start: '0'
     step: samp_rate/1000
-    stop: samp_rate/8
+    stop: samp_rate
     value: Rb
     widget: counter_slider
   states:
@@ -244,7 +244,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [872, 96.0]
+    coordinate: [880, 88.0]
     rotation: 0
     state: enabled
 - name: blocks_multiply_const_vxx_0_0
@@ -311,7 +311,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1102, 213]
+    coordinate: [1112, 192.0]
     rotation: 0
     state: true
 - name: epy_block_0_0
@@ -368,7 +368,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [712, 112.0]
+    coordinate: [696, 64.0]
     rotation: 0
     state: enabled
 - name: import_0

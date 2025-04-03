@@ -82,14 +82,14 @@ class ook(gr.top_block, Qt.QWidget):
         # Blocks
         ##################################################
 
-        self._fd_range = qtgui.Range(0, samp_rate/8, samp_rate/1000, Rb, 200)
+        self._fd_range = qtgui.Range(0, samp_rate, samp_rate/1000, Rb, 200)
         self._fd_win = qtgui.RangeWidget(self._fd_range, self.set_fd, "Deviation Freq", "counter_slider", float, QtCore.Qt.Horizontal)
         self.top_grid_layout.addWidget(self._fd_win, 0, 1, 1, 1)
         for r in range(0, 1):
             self.top_grid_layout.setRowStretch(r, 1)
         for c in range(1, 2):
             self.top_grid_layout.setColumnStretch(c, 1)
-        self._fc_range = qtgui.Range(0, samp_rate/8, samp_rate/1000, Rb*4, 200)
+        self._fc_range = qtgui.Range(0, samp_rate, samp_rate/1000, Rb*4, 200)
         self._fc_win = qtgui.RangeWidget(self._fc_range, self.set_fc, "Carrier Freq. ", "counter_slider", float, QtCore.Qt.Horizontal)
         self.top_grid_layout.addWidget(self._fc_win, 0, 0, 1, 1)
         for r in range(0, 1):
