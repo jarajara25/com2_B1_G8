@@ -1,1 +1,2 @@
-## Repositorio evidencia de los laboratorio de comunicaciones II
+# ComuII_B1_G8
+Repositorio Comunicaciones II
